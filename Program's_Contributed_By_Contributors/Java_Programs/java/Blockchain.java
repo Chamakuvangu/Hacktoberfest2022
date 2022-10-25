@@ -9,7 +9,7 @@ public class Block {
         this.data = data;
         this.previousHash = previousHash;
         this.timeStamp = timeStamp;
-        this.hash = calculateBlockHash();
+        this.hash = calculateBlockHash01();
     }
     // standard getters and setters
 }
